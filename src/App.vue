@@ -7,7 +7,7 @@
       </h1>
       <p>我是JowayYoung，一位重度CSS爱好者</p>
       <p>欢迎来到<strong class="vue">Pure CSS World</strong></p>
-      <p>请往下滚动浏览更多好看实用的纯CSS特效👇</p>
+      <p>请往下 滚动浏览更多好看实用的纯CSS特效👇</p>
       <p>依据美学标准将以下纯CSS特效划分为五大类</p>
       <p>布局-行为-色彩-图形-组件</p>
       <p>大部分纯CSS特效为原创，亦有少部分参考他人</p>
@@ -254,7 +254,7 @@
       background-color: #f66;
     }
     &::after {
-      content: "布局";
+      content: '布局';
     }
   }
   &.behavior .bruce {
@@ -262,7 +262,7 @@
       background-color: #66f;
     }
     &::after {
-      content: "行为";
+      content: '行为';
     }
   }
   &.color .bruce {
@@ -270,7 +270,7 @@
       background-color: #f90;
     }
     &::after {
-      content: "颜色";
+      content: '颜色';
     }
   }
   &.figure .bruce {
@@ -278,7 +278,7 @@
       background-color: #09f;
     }
     &::after {
-      content: "图形";
+      content: '图形';
     }
   }
   &.component .bruce {
@@ -286,7 +286,7 @@
       background-color: #3c9;
     }
     &::after {
-      content: "组件";
+      content: '组件';
     }
   }
 }
@@ -329,35 +329,79 @@
 
 <script>
 import Layout from './components/layout/use-margin.vue'
-import Layout2 from "./components/layout/use-flexbox.vue";
+import Layout2 from './components/layout/use-flexbox.vue'
+import Behavior1 from './components/behavior/use-@empty-watch-clear-status.vue'
+import Behavior2 from './components/behavior/use-@focus-within-distribute-bubble-res.vue'
+import Behavior3 from './components/behavior/use-hover-customize-notify.vue'
+import Behavior8 from './components/behavior/use-@valid-@invalid-verify-form-content.vue'
+import Behavior10 from './components/behavior/use+or~-pick-specified-element.vue'
 import Behavior12 from './components/behavior/use-attr-node-property.vue'
+import Component1 from './components/component/ios-switch-button.vue'
+import Component2 from './components/component/tag-navigation.vue'
+import Component3 from './components/component/tag-radio.vue'
+import Component4 from './components/component/reflection-loading-bar.vue'
+import Component5 from './components/component/login-register.vue'
+import Component6 from './components/component/like-button.vue'
 import Component7 from './components/component/use-counter-interator.vue'
+import Component8 from './components/component/magnifier-cmp.vue'
+import Component9 from './components/component/fault-text.vue'
+import Component10 from './components/component/scroll-dynamic-bg.vue'
+import Component11 from './components/component/scroll-indicator.vue'
+import Component12 from './components/component/underline-navbar.vue'
+import Component13 from './components/component/chaos-loading-circle.vue'
+import Component14 from './components/component/loading-indicator.vue'
+import Component15 from './components/component/stereo-button.vue'
+import Component18 from './components/component/buble-dialog.vue'
 import Component22 from './components/component/bar-loading.vue'
 import Component24 from './components/component/heart-shaped-loading.vue'
+import Component26 from './components/component/hover-tracking.vue'
+import Component27 from './components/component/suspended-parallax.vue'
 import Figure3 from './components/figure/use-clip-path.vue'
 export default {
-  name: "app",
+  name: 'app',
   components: {
     // 组件
+    Component1,
+    Component2,
+    Component3,
+    Component4,
+    Component5,
+    Component6,
     Component7,
+    Component8,
+    Component9,
+    Component10,
+    Component11,
+    Component12,
+    Component13,
+    Component14,
+    Component15,
+    Component18,
     Component22,
     Component24,
+    Component26,
+    Component27,
     // 行为
+    Behavior1,
+    Behavior2,
+    Behavior3,
+    Behavior8,
+    Behavior10,
     Behavior12,
     // 布局
     Layout,
     Layout2,
     // 图形
-    Figure3
+    Figure3,
   },
   data() {
     return {
       count: 0,
-    };
+    }
   },
   mounted() {
-    const items = document.getElementsByClassName("bruce") || [];
-    this.count = items.length;
+    const items = document.getElementsByClassName('bruce') || []
+    this.count = items.length
   },
-};
+}
 </script>
