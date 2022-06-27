@@ -329,13 +329,38 @@
 
 <script>
 import Layout from './components/layout/use-margin.vue'
+import Layout1 from './components/layout/use-clip-path.vue' 
 import Layout2 from './components/layout/use-flexbox.vue'
+import Layout3 from './components/layout/use-float.vue'
+import Layout4 from './components/layout/use-letter-spacing.vue'
+import Layout5 from './components/layout/use-margin-achieve-bump.vue'
+import Layout6 from './components/layout/use-overflow-x-horizontal.vue'
+import Layout7 from './components/layout/use-textoverflow.vue'
+import Layout8 from './components/layout/use-transform-draw-pixel-border.vue'
+import Layout9 from './components/layout/use-transform-flip-container.vue'
+import Layout10 from './components/layout/use-writing-mode.vue'
 import Behavior1 from './components/behavior/use-@empty-watch-clear-status.vue'
 import Behavior2 from './components/behavior/use-@focus-within-distribute-bubble-res.vue'
 import Behavior3 from './components/behavior/use-hover-customize-notify.vue'
+import Behavior4 from './components/behavior/use-hover-achieve-dynamic-border.vue'
+import Behavior5 from './components/behavior/use-hover-achieve-mouse-following.vue'
+import Behavior6 from './components/behavior/use-not-cleared-attr.vue'
+import Behavior7 from './components/behavior/use-nth-child-achieve-specified-scope.vue'
 import Behavior8 from './components/behavior/use-@valid-@invalid-verify-form-content.vue'
 import Behavior10 from './components/behavior/use+or~-pick-specified-element.vue'
 import Behavior12 from './components/behavior/use-attr-node-property.vue'
+import Color1 from './components/color/use-@@selection.vue'
+import Color2 from './components/color/use-nth-child-draw-signal-bar.vue'
+import Color3 from './components/color/use-box-shadow-draw-rainbow-bar.vue'
+import Color4 from './components/color/use-filter-glass-layer.vue'
+import Color5 from './components/color/use-filter-dark-theme.vue'
+import Color6 from './components/color/use-filter-mourning-mode.vue'
+import Color7 from './components/color/use-filter-draw-colorful-shadow.vue'
+import Color8 from './components/color/use-filter-draw-dynamic-bg.vue'
+import Color9 from './components/color/use-filter-mock-instagram.vue'
+import Color10 from './components/color/use-linear-gradient-bg.vue'
+import Color11 from './components/color/use-linear-gradient-text.vue'
+import Color12 from './components/color/use-linear-gradient-blink-text.vue'
 import Component1 from './components/component/ios-switch-button.vue'
 import Component2 from './components/component/tag-navigation.vue'
 import Component3 from './components/component/tag-radio.vue'
@@ -351,12 +376,32 @@ import Component12 from './components/component/underline-navbar.vue'
 import Component13 from './components/component/chaos-loading-circle.vue'
 import Component14 from './components/component/loading-indicator.vue'
 import Component15 from './components/component/stereo-button.vue'
+import Component16 from './components/component/thread-progressbar.vue'
+import Component17 from './components/component/bubble-bgwall.vue'
 import Component18 from './components/component/buble-dialog.vue'
+import Component19 from './components/component/td-cube.vue'
+import Component20 from './components/component/mall-ticket.vue'
+import Component21 from './components/component/accordion-cmp.vue'
 import Component22 from './components/component/bar-loading.vue'
+import Component23 from './components/component/color-changer.vue'
 import Component24 from './components/component/heart-shaped-loading.vue'
+import Component25 from './components/component/star-rating.vue'
 import Component26 from './components/component/hover-tracking.vue'
 import Component27 from './components/component/suspended-parallax.vue'
+import Component28 from './components/component/state-ball.vue'
+import Component29 from './components/component/fillet-progressbar.vue'
+import Figure1 from './components/figure/use-box-shadow-drop-focus-area.vue'
+import Figure2 from './components/figure/use-box-shadow-aside-shadow.vue'
 import Figure3 from './components/figure/use-clip-path.vue'
+import Figure4 from './components/figure/use-clip-snakelike-border.vue'
+import Figure5 from './components/figure/use-conic-gradient-draw-pie.vue'
+import Figure6 from './components/figure/use-linear-gradient-draw-waveline.vue'
+import Figure7 from './components/figure/use-liner-gradient-draw-square-bg.vue'
+import Figure8 from './components/figure/use-linear-gradient-draw-colour-bar.vue'
+import Figure9 from './components/figure/use-linear-gradient-draw-grid-bg.vue'
+import Figure10 from './components/figure/use-mask-bg.vue'
+import Figure11 from './components/figure/use-outline.vue'
+import Figure12 from './components/figure/use-transform-draw-heart-shape.vue'
 export default {
   name: 'app',
   components: {
@@ -376,23 +421,69 @@ export default {
     Component13,
     Component14,
     Component15,
+    Component16,
+    Component17,
     Component18,
+    Component19,
+    Component20,
+    Component21,
     Component22,
+    Component23,
     Component24,
+    Component25,
     Component26,
     Component27,
+    Component28,
+    Component29,
+    // 色彩
+    Color1,
+    Color2,
+    Color3,
+    Color4,
+    Color5,
+    Color6,
+    Color7,
+    Color8,
+    Color9,
+    Color10,
+    Color11,
+    Color12,
     // 行为
     Behavior1,
     Behavior2,
     Behavior3,
+    Behavior4,
+    Behavior5,
+    Behavior6,
+    Behavior7,
     Behavior8,
     Behavior10,
     Behavior12,
     // 布局
     Layout,
+    Layout1,
     Layout2,
+    Layout3,
+    Layout4,
+    Layout5,
+    Layout6,
+    Layout7,
+    Layout8,
+    Layout9,
+    Layout10,
     // 图形
+    Figure1,
+    Figure2,
     Figure3,
+    Figure4,
+    Figure5,
+    Figure6,
+    Figure7,
+    Figure8,
+    Figure9,
+    Figure10,
+    Figure11, 
+    Figure12
   },
   data() {
     return {
