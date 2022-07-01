@@ -41,7 +41,7 @@ $outbox-h: $box-h * $ratio;
     border-radius: 100%;
     width: var(--size);
     height: var(--size);
-    background: #333 url($box-bg) no-repeat $scale-x $scale-y/$outer-w $outbox-h;
+    background: #333 url($box-bg) no-repeat $scale-x $scale-y/$outbox-w $outbox-h;
     box-shadow: 1px 1px 3px rgba(#000, 0.5);
     content: '';
     will-change: left, top;

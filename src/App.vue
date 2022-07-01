@@ -347,8 +347,19 @@ import Behavior5 from './components/behavior/use-hover-achieve-mouse-following.v
 import Behavior6 from './components/behavior/use-not-cleared-attr.vue'
 import Behavior7 from './components/behavior/use-nth-child-achieve-specified-scope.vue'
 import Behavior8 from './components/behavior/use-@valid-@invalid-verify-form-content.vue'
+import Behavior9 from './components/behavior/use+or~-beauty-selection.vue'
 import Behavior10 from './components/behavior/use+or~-pick-specified-element.vue'
-import Behavior12 from './components/behavior/use-attr-node-property.vue'
+import Behavior11 from './components/behavior/use-animation-delay-initial-keyframe.vue'
+import Behavior12 from './components/behavior/use-attr-ctrol-switch-text.vue'
+import Behavior13 from './components/behavior/use-attr-node-property.vue'
+import Behavior14 from './components/behavior/use-content-crawler-box.vue'
+import Behavior15 from './components/behavior/use-max-height-achieve-auto-height.vue'
+import Behavior16 from './components/behavior/use-object-fit-customize-img-size.vue'
+import Behavior17 from './components/behavior/use-pointer-events-disabled-trigger.vue'
+import Behavior18 from './components/behavior/use-position-adjust-pos.vue'
+import Behavior19 from './components/behavior/use-resize-stretching-column.vue'
+import Behavior20 from './components/behavior/use-text-align-last-justify-text.vue'
+import Behavior21 from './components/behavior/use-tranform-mock-scroll.vue'
 import Color1 from './components/color/use-@@selection.vue'
 import Color2 from './components/color/use-nth-child-draw-signal-bar.vue'
 import Color3 from './components/color/use-box-shadow-draw-rainbow-bar.vue'
@@ -390,6 +401,9 @@ import Component26 from './components/component/hover-tracking.vue'
 import Component27 from './components/component/suspended-parallax.vue'
 import Component28 from './components/component/state-ball.vue'
 import Component29 from './components/component/fillet-progressbar.vue'
+import Component30 from './components/component/sticky-ball.vue'
+import Component31 from './components/component/achieve-accordion.vue'
+import Component32 from './components/component/article-avatar.vue'
 import Figure1 from './components/figure/use-box-shadow-drop-focus-area.vue'
 import Figure2 from './components/figure/use-box-shadow-aside-shadow.vue'
 import Figure3 from './components/figure/use-clip-path.vue'
@@ -435,6 +449,9 @@ export default {
     Component27,
     Component28,
     Component29,
+    Component30,
+    Component31,
+    Component32,
     // 色彩
     Color1,
     Color2,
@@ -457,8 +474,19 @@ export default {
     Behavior6,
     Behavior7,
     Behavior8,
+    Behavior9,
     Behavior10,
+    Behavior11,
     Behavior12,
+    Behavior13,
+    Behavior14,
+    Behavior15,
+    Behavior16,
+    Behavior17,
+    Behavior18,
+    Behavior19,
+    Behavior20,
+    Behavior21,
     // 布局
     Layout,
     Layout1,
