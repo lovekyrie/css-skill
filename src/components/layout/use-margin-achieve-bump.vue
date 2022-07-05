@@ -8,7 +8,7 @@
       <li>Ant</li>
       <li>Netease</li>
     </ul>
-    <ul class="highlight right">
+    <ul class="highlight-list right">
       <li>Alibaba</li>
       <li>Tencent</li>
       <li>Baidu</li>

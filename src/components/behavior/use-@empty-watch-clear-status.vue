@@ -14,7 +14,7 @@ export default {}
 <style lang="scss" scoped>
 $empty: 'https://yangzw.vip/img/empty.svg';
 .empty-list {
-  overflow: hidden;
+  overflow: auto;
   width: 200px;
   height: 150px;
   outline: 1px solid #3c9;
