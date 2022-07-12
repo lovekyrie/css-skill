@@ -1,7 +1,7 @@
 <template>
   <div class="bruce flex-ct-x" data-title="使用box-shadow裁剪聚焦区域">
     <div class="img-cliper">
-      <img src="https://static.yangzw.vip/codepen/gz.jpg" alt="" />
+      <img src="https://feng-fortitude.com/wp-content/uploads/2022/07/gz.jpg" alt="" />
       <i> </i>
     </div>
   </div>

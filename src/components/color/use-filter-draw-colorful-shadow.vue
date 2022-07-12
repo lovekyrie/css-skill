@@ -9,13 +9,13 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-$avatar: 'https://static.yangzw.vip/codepen/thor.jpg';
+$avatar: 'https://feng-fortitude.com/wp-content/uploads/2022/07/thor.webp';
 .avatar-shadow {
   position: relative;
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  background: url($avatar) no-repeat center/conver;
+  background: url($avatar) no-repeat center/cover;
   &::after {
     position: absolute;
     left: 0;

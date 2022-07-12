@@ -1,7 +1,7 @@
 <template>
   <div class="bruce flex-ct-x" data-title="使用filter开启悼念模式">
     <img
-      src="https://static.yangzw.vip/codepen/car.jpg"
+      src="https://feng-fortitude.com/wp-content/uploads/2022/07/car.jpg"
       alt=""
       class="mourning-mode"
     />
